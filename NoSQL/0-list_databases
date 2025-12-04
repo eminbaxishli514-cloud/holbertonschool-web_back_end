@@ -1,2 +1,2 @@
 // my comment
-printjson(db.adminCommand({ listDatabases: 1 }))
+db.getMongo().getDBNames().forEach(print)
