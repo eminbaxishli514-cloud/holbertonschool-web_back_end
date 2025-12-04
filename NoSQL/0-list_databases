@@ -1,1 +1,2 @@
-show dbs
+// my comment
+printjson(db.adminCommand('listDatabases'))
