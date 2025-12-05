@@ -1,2 +1,2 @@
-// my comment
-db.getMongo().getDBNames().forEach(print)
+// 0-list_databases
+show dbs
